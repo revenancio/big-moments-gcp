@@ -7,3 +7,6 @@ steps:
 
 images:
   - 'gcr.io/$PROJECT_ID/big-moments-gcp'
+
+options:
+  logs_bucket: gs://<YOUR_LOG_BUCKET_NAME>  # Reemplaza con el nombre de tu bucket
