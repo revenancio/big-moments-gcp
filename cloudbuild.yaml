@@ -9,4 +9,4 @@ images:
   - 'gcr.io/$PROJECT_ID/big-moments-gcp'
 
 options:
-  logs_bucket: gs://visionbucketg1 
+  logging: REGIONAL_USER_OWNED_BUCKET  # Usar bucket predeterminado regional
