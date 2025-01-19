@@ -10,7 +10,7 @@ steps:
 images:
   - 'gcr.io/$PROJECT_ID/big-moments-gcp'
 
-  options:
-  logging: CLOUD_LOGGING_ONLY
-  logs_bucket: 'gs://visionbucketg1'
+options:
+logging: CLOUD_LOGGING_ONLY
+logs_bucket: 'gs://visionbucketg1'
 
