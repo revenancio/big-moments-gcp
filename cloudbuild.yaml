@@ -9,4 +9,4 @@ images:
   - 'gcr.io/$PROJECT_ID/big-moments-gcp'
 
 options:
-  logging: REGIONAL_USER_OWNED_BUCKET  # Usar bucket predeterminado regional
+  logging: CLOUD_LOGGING_ONLY  # Usar solo Cloud Logging para los logs
