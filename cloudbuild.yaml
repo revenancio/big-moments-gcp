@@ -1,7 +1,7 @@
 steps:
-  # Paso 1: Construir la imagen Docker desde el Dockerfile en la carpeta "app"
+  # Paso 1: Construir la imagen Docker desde el Dockerfile en la carpeta 'app'
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/$PROJECT_ID/big-moments-gcp', '-f', 'app/Dockerfile', '.']
+    args: ['build', '-t', 'gcr.io/$PROJECT_ID/big-moments-gcp', './app']
 
   # Paso 2: Empujar la imagen Docker a Container Registry
   - name: 'gcr.io/cloud-builders/docker'
