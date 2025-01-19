@@ -11,4 +11,4 @@ images:
   - 'gcr.io/$PROJECT_ID/big-moments-gcp'
 
 options:
-  logging: CLOUD_LOGGING_ONLY  # Usa Cloud Logging para los registros
+  logging: CLOUD_LOGGING_ONLY
